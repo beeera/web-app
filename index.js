@@ -46,7 +46,7 @@ app.use(
    baseURL: APP_URL,
    // 👇 add this 👇
    authorizationParams: {
-     response_type: "openid token code id_token",
+     response_type: "code id_token",
      audience: "https://expenses-api",
    },
    // 👆 add this 👆
